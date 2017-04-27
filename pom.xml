@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>nc.noumea.mairie</groupId>
+    <artifactId>appock-pandoc</artifactId>
+    <version>1.00.00-SNAPSHOT</version>
+
+    <name>The appock-pandoc Project</name>
+    <description>The Pandoc documentation for appock project</description>
+    <url>https://github.com/DSI-Ville-Noumea/appock-pandoc</url>
+
+    <inceptionYear>2017</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License (GPL) v3</name>
+            <url>http://www.gnu.org/copyleft/gpl.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <email>Adrien.Sales@ville-noumea.nc</email>
+            <id>salad74</id>
+            <name>Adrien Sales</name>
+            <organization>Mairie de Nouméa</organization>
+            <organizationUrl>http://www.noumea.nc/</organizationUrl>
+            <roles>
+                <role>Architecte logiciel</role>
+                <role>Intégrateur</role>
+                <role>DBA</role>
+            </roles>
+            <timezone>+11</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>https://github.com/DSI-Ville-Noumea/appock-pandoc.git</connection>
+        <developerConnection>https://github.com/DSI-Ville-Noumea/appock-pandoc.git</developerConnection>
+        <url>https://github.com/DSI-Ville-Noumea/appock-pandoc.git</url>
+    </scm>
+
+    <organization>
+        <name>Mairie de Nouméa, Nouvelle-Calédonie</name>
+        <url>http://www.noumea.nc/</url>
+    </organization>
+
+
+    <contributors>
+        <!-- DSI Ville de Nouméa -->
+        <contributor>
+            <email>Adrien.Sales@ville-noumea.nc</email>
+            <name>Sales</name>
+            <organization>Mairie de Nouméa</organization>
+            <organizationUrl>http://www.noumea.nc</organizationUrl>
+            <roles>
+                <role>Intégrateur</role>
+                <role>DBA</role>
+                <role>Développeur Liquibase</role>
+                <role>Responsable du Département Maintenance et Développement</role>
+                <role>Scrum Master</role>
+            </roles>
+            <timezone>+11</timezone>
+        </contributor>
+    </contributors>
+
+   
+</project>

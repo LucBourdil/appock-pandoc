@@ -1,0 +1,29 @@
+language: generic
+dist: trusty
+before_install:
+- export pandoc_version=1.16.0.2
+- wget https://github.com/jgm/pandoc/releases/download/${pandoc_version}/pandoc-${pandoc_version}-1-amd64.deb
+- sudo dpkg -i pandoc-${pandoc_version}-1-amd64.deb
+- sudo apt-get update -qq
+- sudo apt-get install texlive-xetex
+- sudo apt-get install texlive-fonts-recommended
+- sudo apt-get install texlive-fonts-extra
+- sudo apt-get install texlive-latex-base
+- sudo apt-get install texlive-latex-extra
+- sudo apt-get install lmodern
+script: make
+before_deploy:
+- ls build/pdf/*.pdf
+- export RELEASE_PDF_FILE=$(ls build/pdf/*.pdf)
+- echo "deploying ${RELEASE_PDF_FILE} to GitHub releases"
+deploy:
+  provider: releases
+  api_key:
+    secure:   file: ${RELEASE_PDF_FILE}
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: DSI-Ville-Noumea/appock-pandoc
+notifications:
+  slack:
+    secure: 

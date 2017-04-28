@@ -2,7 +2,6 @@ BUILD = build
 TITLE = title.txt
 METADATA = metadata.xml
 TOC = --toc --toc-depth=3
-COVER_IMAGE = images/appock.jpg
 LATEX_CLASS = report
 
 BOOKNAME_USER = doc_utilisateur

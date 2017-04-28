@@ -1,0 +1,10 @@
+.settings
+.classpath
+.project
+target
+velocity.log
+.projects
+nbactions.xml
+/test-output/
+.idea
+appock-pandoc.iml

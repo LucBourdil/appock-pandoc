@@ -7,4 +7,6 @@ velocity.log
 nbactions.xml
 /test-output/
 .idea
+appock-pandoc.imlbuild
+build
 appock-pandoc.iml

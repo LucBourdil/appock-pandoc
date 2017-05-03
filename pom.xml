@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>nc.noumea.mairie</groupId>
     <artifactId>appock-pandoc</artifactId>
-    <version>1.00.00-SNAPSHOT</version>
+    <version>1.00.01</version>
 
     <name>The appock-pandoc Project</name>
     <description>The Pandoc documentation for appock project</description>

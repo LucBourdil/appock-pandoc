@@ -16,14 +16,15 @@ before_deploy:
 - ls build/pdf/*.pdf
 - export RELEASE_PDF_FILE=$(ls build/pdf/*.pdf)
 - echo "deploying ${RELEASE_PDF_FILE} to GitHub releases"
+notifications:
+  slack:
+    secure: fmQdNYiX22ypA9AUvzOgiQXh6aBy/NPSyf3Jx3CnL9gXXHTCsdZT+85dRtsN9QXQ6pwR05uGuOajXqzr+EUQEtF6JG/GDoasJgX03pY7vFns5TvbAd6YAAw/laoPu3pHX88PzATVVvK/acpLSwlds01jo1+Br01xfcDh4GyXOj9xDztDSy9DbFBKDqV8c9/JNC6gVitHUKbq9JXfb8SfIE2UhitpzZCC9pXPI91Um1uxi5Q7q2aZLnPupKa5dC4Xp1KhCv7uB+xqr9CDNajYUntoCgnTSWLy789y3gYFuw8k0FV1EdWBviUFebXTfdJ+uH/IIFko7DBZVEMilgvqDmun4k1wMtiz8HPGhjWlv5J9fNXZTnabxWMQgiRli3RrdvbkzsID5ZXjthN66Bg2yImb9LBKI/H0MYWCsIJZ3Bqi0xR2DLoqPxuGMa9vg0bvWMiB8DKK8Ac4SjWLNXUMSyjZiUL2/oLGzGx2a0OsXc5ICof/ZNYARUyFcxBW0JkK5yZTe6W5qG2HLL/dw0Q/TBfdDDONm9EYPtDT68Z/7XVTqydIm34ZHyRopQqHqz16gjoRy36cp6FCCPH4tq0spjNAlrjAzsBdVV03p0jEz7THLnqipGIBxXxfyy6gG/S0dsgW8p8XykNX6jbqbP0I7ntpvwjTDk+l2EeIuB9KhNg=
 deploy:
   provider: releases
   api_key:
-    secure:   file: ${RELEASE_PDF_FILE}
+    secure: H1jWMzPoDOD+/YHlUz8+eUiS5pBEk+HuRnMyALSvU5Wv6AHMFa+MSvKYIb5MxA8BcWSzJFkFKg6Xr6YejfkHWFLny/8n7G4tu+lFCM5vwIiegPAQSsd5GrdivoBX0NPRnmSE4x6WMHKE/WLmgsUpUZyteV96X14x0TnwJCeZxVWW/vQTv71Uaw5yFUCAXvbc/sBhJUB+kjaq1RHurPuvj+n6QFdVJm3eNdPbf8489lzEICCtZDSWQHjJxEDkk27MQIDRL1TgVuddIhj4qIhTFXBvf6EbeGgihKGPdPWJ8FN+mYJWpV0maCwpWN53yp4UMQTOrXqbXF00iiWX/aV1R2VCT3r10N7Zq4c+x5pzI3F9h6/soEm/HDKVWHhNeTkBskEneYajcKyVUoYrRdGGfGZxqPtc0N2xRzoRvoLEL0slf8kNilPGL1i9jwI6sLHhptmvb2QlhIGbD7v/Aq6dfOJ/kOoMN3WTMFaG2CFIsz3ifiVtGFmiD9IfhgDTlKHK3NWTeMJIUtrfmPMYsu3LPOVyTdzzewtX+k3fKEK37i0Attl22ckKI0BhxhV8GQdHzxPiHf+TEMCLmGjg2G7Ss3HX0eeNUpplEmrkulE8SBk290V/7shOjZYexZ5oprSe+FovdyRdZxWUIKlgcmqAKF7oOrCtzOo2RLIBuOmecfs=
+  file: ${RELEASE_PDF_FILE}
   skip_cleanup: true
   on:
     tags: true
     repo: DSI-Ville-Noumea/appock-pandoc
-notifications:
-  slack:
-    secure: 

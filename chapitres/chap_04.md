@@ -15,7 +15,7 @@ Il se peut qu'aucun catalogue ne soit actif, vous aurez alors l'erreur suivante 
 
 Vous pouvez rechercher un article par libellé ou référence en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les articles ayant ce texte dans la référence ou dans le libellé. La recherche est en mode "le libellé ou la référence *contient* le texte à rechercher".
 
-![Recherche catalogue](images/chap_04/recherche_catalogue.png "Recherche catalogue")
+![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue")
 
 ### Ajouter un/des articles au panier
 

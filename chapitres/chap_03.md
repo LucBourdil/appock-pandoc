@@ -168,7 +168,7 @@ Il est possible d'importer un catalogue depuis un fichier Excel. Le squelette du
 
 Pour modifier l'état d'un catalogue, il suffit de cliquer sur le bouton permettant de changer le statut. Pour rappel, un catalogue respecte le workflow suivant :
 
-![Diagramme état catalogue](images/chap_03/diagramme-etat-catalogue.jpg "Diagramme état catalogue")
+![Diagramme état catalogue](images/chap_03/diagramme-etat-catalogue.png "Diagramme état catalogue")
 
 Un message d'erreur vous avertira dans le cas où vous essayer d'activer un catalogue alors qu'un autre catalogue est déjà actif
 

@@ -7,14 +7,14 @@ Tous les articles du stocks apparaissent avec les quantotés en stocks. Les quan
 
 Vous pouvez rechercher un article par libellé ou référence en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les articles ayant ce texte dans la référence ou dans le libellé. La recherche est en mode "le libellé ou la référence *contient* le texte à rechercher".
 
-![Recherche catalogue](images/chap_03/recherche_catalogue.jpg "Recherche catalogue")
+![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue")
 
 
 ## Entrée en stock
 
 Afin d'effectuer une entrée en stock il vous suffit de cliquer sur une ligne d'article et de cliquer sur "Entrée stock". La fenêtre d'entrée de stock s'ouvre vous permettant de saisir votre entrée.
 
-![Entrée en stock](images/chap_06/entree_stock.jpg "Entrée en stock")
+![Entrée en stock](images/chap_07/entree_stock.jpg "Entrée en stock")
 
 > Si l'article seléctionné poséde un colisage particulier, vous pourrez choisir, lors de la saisie de la quantité à entrer en stock, d'effectuer soit une entrée à l'unité ou au colisage (à la boite par exemple)
 
@@ -30,7 +30,7 @@ Afin d'effectuer une sortie de stock il vous suffit de cliquer sur une ligne d'a
 
 Vous pouvez ajouter un article au stock d'un service, pour cela cliquer sur le bouton "Ajouter un article au stock", selectionnez un article et entrer sa quantité à l'unité
 
-![Ajout article stock](images/chap_06/ajout_article_stock.jpg "Ajout article stock")
+![Ajout article stock](images/chap_07/ajout_article_stock.jpg "Ajout article stock")
 
 ## Inventaire
 

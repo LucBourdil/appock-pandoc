@@ -121,7 +121,7 @@ Si vous souhaitez faire passer un message concernant cette commande à la sectio
 
 Vous pouvez rechercher un article par libellé ou référence en entrant du texte dans la zone au dessus des articles. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les articles ayant ce texte dans la référence ou dans le libellé. La recherche est en mode "le libellé ou la référence *contient* le texte à rechercher".
 
-![Recherche catalogue](images/chap_04/recherche_catalogue.png "Recherche catalogue")
+![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue")
 
 ### Vérifier et valider les quantités reçues
 

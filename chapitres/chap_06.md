@@ -7,7 +7,7 @@ Tous les articles du stocks apparaissent avec les quantotés en stocks. Les quan
 
 Vous pouvez rechercher un article par libellé ou référence en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les articles ayant ce texte dans la référence ou dans le libellé. La recherche est en mode "le libellé ou la référence *contient* le texte à rechercher".
 
-![Recherche catalogue](images/chap_03/recherche_catalogue.png "Recherche catalogue")
+![Recherche catalogue](images/chap_03/recherche_catalogue.jpg "Recherche catalogue")
 
 ## Sortie de stock
 

@@ -2,7 +2,7 @@
 
 Voici le cycle de fonctionnement au sein d'APPOCK entre les référents services et les référents achats :
 
-![Diagramme séquence service achat](images/diagramme-sequence-service-achat.png "Diagramme séquence service achat")
+![Diagramme séquence section achat](images/chap_04/diagramme-sequence-service-achat.png "Diagramme séquence section achat")
 
 ## Catalogue
 
@@ -14,6 +14,8 @@ Il se peut qu'aucun catalogue ne soit actif, vous aurez alors l'erreur suivante 
 ### Rechercher un article
 
 Vous pouvez rechercher un article par libellé ou référence en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les articles ayant ce texte dans la référence ou dans le libellé. La recherche est en mode "le libellé ou la référence *contient* le texte à rechercher".
+
+![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue")
 
 ### Ajouter un/des articles au panier
 
@@ -54,13 +56,20 @@ En cliquant sur le bouton "Vider le panier", le panier est complètement vidé.
 ## Demandes
 
 Voici les différents états que prenne une demande dans APPOCK :
-![Diagramme état demande](images/diagramme-etat-demande.png "Diagramme état demande")
+
+![Diagramme état demande](images/chap_04/diagramme-etat-demande.png "Diagramme état demande")
 
 ### Consulter les demandes
 
 Pour consulter la liste des demandes et voir leurs états, cliquez sur le menu "Demandes". Un double-clic sur une ligne permet de l'ouvrir en modification.
 
 > Vous ne pouvez modifier que les demandes dans l'état "Créée".
+
+### Rechercher une demande
+
+Vous pouvez rechercher une demande par numéro ou par état en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les demandes ayant ce texte dans la numéro ou l'état selectionné. La recherche est en mode "le numéro *contient* le texte à rechercher".
+
+![Recherche demande](images/chap_04/recherche_demande.jpg "Recherche demande")
 
 ### Créer une demande d'approvisionnement
 
@@ -75,7 +84,7 @@ Une fois votre sélection effectuée, vous pouvez cliquer sur "Créer une demand
 
 ### Modifier les quantités d'une demande
 
-Il vous est toujours possible de modifier les quantités de vos articles dans votre demande tant que celle-ci n'a pas été transmise au service achat.
+Il vous est toujours possible de modifier les quantités de vos articles dans votre demande tant que celle-ci n'a pas été transmise à la section achat.
 
 ### Transmettre une demande
 
@@ -85,9 +94,18 @@ Une fois votre demande prête, vous pouvez la transmettre en cliquant sur le bou
 
 Tant que la demande n'est pas transmise elle peut être annulée (i.e. supprimée).
 
+### Création d'une demande d'approvisionnement pour un article spécifique
+
+Dans la liste des demandes vous pouvez cliquer sur le bouton "Création d'une demande d'approvisionnement pour un article spécifique". Un écran s'ouvre vous demandant de renseigner les informations de l'article spécifique.
+Une fois votre demande envoyée par mail vous serez mis en copie de ce mail qui sera transmis à la section achat.
+
+![Création demande spécifique](images/chap_04/creation_demande_specifique.jpg "Création demande spécifique")
+
+> La gestion des articles spécifiques se fera entièrement en dehors de l'application APPOCK
+
 ## Réception commande
 
-Une fois la commande passée aux fournisseurs par le service achat vous allez la réceptionner dans APPOCK.
+Une fois la commande passée aux fournisseurs par la section achat vous allez la réceptionner dans APPOCK.
 Dans l'onglet "Réception commande" vous trouverez la liste de toutes les commandes de votre service qui sont en attente de réception.
 Un double clic sur une commande vous permet de rentrer dans la commande en question.
 
@@ -95,19 +113,23 @@ Un double clic sur une commande vous permet de rentrer dans la commande en quest
 
 Vous devez fournir le bon de livraison du fournisseur lors de la réception de la commande. Pour se faire, cliquez sur le bouton "Choisir" et choisissez le bon de livraison sur votre disque dur (vous devez l'avoir précédemment scanné). Seuls les formats PDF sont acceptés. Vous pouvez choisir un autre bon de livraison si vous vous êtes trompés ou même supprimer le bon de livraison actuel si nécessaire.
 
-### Ajouter un commentaire pour le service achat
+### Ajouter un commentaire pour la section achat
 
-Si vous souhaitez faire passer un message concernant cette commande au service achat vous pouvez renseigner votre texte dans la case prévue à cet effet.
+Si vous souhaitez faire passer un message concernant cette commande à la section achat vous pouvez renseigner votre texte dans la case prévue à cet effet.
+
+### Rechercher un article
+
+Vous pouvez rechercher un article par libellé ou référence en entrant du texte dans la zone au dessus des articles. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les articles ayant ce texte dans la référence ou dans le libellé. La recherche est en mode "le libellé ou la référence *contient* le texte à rechercher".
+
+![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue")
 
 ### Vérifier et valider les quantités reçues
 
-Pour chacun des articles commandés vous devez vous assurer de valider les quantités que vous avez reçues. Pour se faire, sur chaque ligne d'articles vous pouvez indiquer si vous avez **tout reçu** ou **partiellement reçu** ou **rien reçu**.
-
-**AJOUTER ICI LES REGLES DE GESTION DEFINIES PAR LE SERVICE ACHAT : QUE FAIRE SI JE NE RECOIS PAS LE BON ARTICLE ? SI JE NE SUIS PAS LIVRE ? ...EN CAS DE DOUTE CONTACTEZ LE SERVICE ACHAT**
+Pour chacun des articles commandés vous devez vous assurer de valider les quantités que vous avez reçues. Pour ce faire, sur chaque ligne d'articles vous pouvez indiquer si vous avez **tout reçu** ou **partiellement reçu** ou **rien reçu**.
 
 ### Valider la réception de la commande
 
-Une fois que vous avez joint le bon de livraison et que vous avez validé que chacune des lignes a été renseignée vous pouvez cliquer sur le bouton "Commande réceptionnée". La commande sera alors envoyée pour seconde validation au service achat qui une fois validé la passera dans le menu Commandes "terminées"
+Une fois que vous avez joint le bon de livraison et que vous avez validé que chacune des lignes a été renseignée vous pouvez cliquer sur le bouton "Commande réceptionnée". La commande sera alors envoyée pour seconde validation à la section achat qui une fois validé la passera dans le menu Commandes "terminées"
 
 ## Commandes "terminées"
 

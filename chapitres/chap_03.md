@@ -5,12 +5,20 @@
 ### Création
 
 * Pour créer un pôle, cliquez sur le bouton "Nouveau pôle" et donner lui un libellé
+
+![Création pôle](images/chap_03/creation_pole.jpg "Création pôle")
+
 * Pour créer une direction, placez vous dans la liste sur un pôle, puis cliquez sur "Nouvelle direction" et donner lui un libellé et un libellé court
+ 
+![Création direction](images/chap_03/creation_direction.jpg "Création direction")
+ 
 * Pour créer un service, placez vous dans la liste sur une direction, puis cliquez sur "Nouveau service" et donner lui un libellé, un libellé court et renseignez l'adresse de livraison
+
+![Création service](images/chap_03/creation_service.jpg "Création service")
 
 ### Modification
 
-Pour modifier un pôle ou une direction ou un service, double cliquez sur une ligne dans la liste
+Pour modifier un pôle ou une direction ou un service, double cliquez sur une ligne dans la liste et modifiez les informations souhaitées
 
 ### Désactiver un service
 
@@ -28,7 +36,9 @@ La suppression d'un pôle ou d'une direction entraînera automatiquement la supp
 
 ### Création
 
-Pour créer un nouveau fournisseur, sur la liste des fournisseurs, cliquez sur le bouton "Nouveau" et renseignez un nom.
+Pour créer un nouveau fournisseur, sur la liste des fournisseurs, cliquez sur le bouton "Nouveau" et renseignez les informations souhaitées.
+
+![Création fournisseur](images/chap_03/creation_fournisseur.jpg "Création fournisseur")
 
 ### Modification
 
@@ -58,6 +68,9 @@ Une case à cocher permet de spécifier si un utilisateur est titulaire ou non. 
 ### Création
 
 Cliquez sur "Nouveau" et renseignez un login Mairie (ex : lemth83).
+
+![Création utilisateur](images/chap_03/creation_utilisateur.jpg "Création utilisateur")
+
 Soit :
 * L'utilisateur existe déjà dans APPOCK et vous aurez une erreur "L'identifiant xxxxxxx est déjà utilisé"
 * L'utilisateur n'a pas été trouvé dans l'annuaire de la Mairie, dans ce cas vous aurez une erreur : "L'utilisateur n'a pas été trouvé dans la liste des agents de la Mairie de Nouméa"
@@ -65,13 +78,15 @@ Soit :
 
 Une fois l'utilisateur trouvé dans l'annuaire, son nom, prénom, login, téléphone et mail sont automatiquement initialisés avec les données trouvées dans l'annuaire.
 
+![Modification utilisateur](images/chap_03/edit_utilisateur.jpg "Modification utilisateur")
+
 ### Modification
 
 Pour modifier un utilisateur, double cliquez sur une ligne dans la liste.
 
 ### Désactiver
 
-Il est possible de désactiver un utilisateur, il ne sera alors plus autorisé à accéder à l'application mais tout son historique sera toujours présent et consultable. Pour se faire, modifier un utilisateur et décocher la case "actif".
+Il est possible de désactiver un utilisateur en décochant la case "actif ?", il ne sera alors plus autorisé à accéder à l'application mais tout son historique sera toujours présent et consultable. Pour se faire, modifier un utilisateur et décocher la case "actif".
 
 ### Suppression
 
@@ -84,7 +99,17 @@ Pour supprimer un utilisateur, cliquez sur le bouton "supprimer" au sein d'un on
 
 ### Création
 
-Pour créer un nouveau marché, sur la liste des marchés, cliquez sur le bouton "Nouveau" et renseignez un libellé. Une fois validé, l'onglet du nouveau marché s'ouvre et vous permet de créer des sous marchés en cliquant sur "Nouveau sous-marché" et en renseignant toutes les informations nécessaires à ce sous marché.
+Pour créer un nouveau marché, sur la liste des marchés, cliquez sur le bouton "Nouveau" et renseignez un libellé. 
+
+![Création marché](images/chap_03/creation_marche.jpg "Création marché")
+
+Une fois validé, l'onglet du nouveau marché s'ouvre.
+
+![Modification marché](images/chap_03/edit_marche.jpg "Modification marché")
+ 
+Vous pouvez créer des sous marchés en cliquant sur "Nouveau sous-marché" et en renseignant toutes les informations nécessaires à ce sous marché.
+
+![Création sous-marché](images/chap_03/creation_sous_marche.jpg "Création sous-marché")
 
 ### Modification
 
@@ -103,6 +128,9 @@ Pour supprimer un sous-marché, cliquez sur le bouton "corbeille" à la fin de l
 ### Création
 
 Pour créer un nouveau catalogue, placez vous sur la liste des catalogues et cliquez sur "Nouveau".
+
+![Création catalogue](images/chap_03/creation_catalogue.jpg "Création catalogue")
+
 Vous devrez renseigner un libellé et préciser le marché concerné par ce catalogue.
 Pour information, l'état du catalogue qui va être créé vous est affiché (mais n'est pas modifiable).
 L'état affiché respecte la règle suivante :
@@ -114,13 +142,19 @@ L'état affiché respecte la règle suivante :
 
 Une fois le catalogue créé, vous pouvez lui ajouter une famille en cliquant sur le bouton "Nouvelle famille" et en renseignant un libellé.
 
+![Création famille](images/chap_03/creation_famille.jpg "Création famille")
+
 #### Ajout d'une sous-famille
 
 Sélectionnez une famille dans le catalogue, puis cliquez sur "Nouvelle sous-famille" et renseignez un libellé.
 
+![Création sous-famille](images/chap_03/creation_sous_famille.jpg "Création sous-famille")
+
 #### Ajout d'un article
 
 Sélectionner une sous-famille dans le catalogue, puis cliquez sur "Nouvel article" et renseignez tous les champs obligatoires.
+
+![Création article](images/chap_03/creation_article.jpg "Création article")
 
 #### Import d'un catalogue
 
@@ -133,7 +167,8 @@ Il est possible d'importer un catalogue depuis un fichier Excel. Le squelette du
 ### Changer l'état d'un catalogue
 
 Pour modifier l'état d'un catalogue, il suffit de cliquer sur le bouton permettant de changer le statut. Pour rappel, un catalogue respecte le workflow suivant :
-![Diagramme état catalogue](images/diagramme-etat-catalogue.png "Diagramme état catalogue")
+
+![Diagramme état catalogue](images/chap_03/diagramme-etat-catalogue.png "Diagramme état catalogue")
 
 Un message d'erreur vous avertira dans le cas où vous essayer d'activer un catalogue alors qu'un autre catalogue est déjà actif
 
@@ -174,6 +209,8 @@ Sur la fenêtre de modification d'un article, il vous est possible de désactive
 
 Pour créer un nouveau type de colisage, sur la liste des types de colisage, cliquez sur le bouton "Nouveau" et renseignez un libellé.
 
+![Création type colisage](images/chap_03/creation_type_colisage.jpg "Création type colisage")
+
 ### Modification
 
 Pour modifier un type de colisage, double cliquez sur le type de colisage souhaité dans la liste des types de colisage. Le type de colisages'ouvre dans un nouvel onglet. Il est alors possible de modifier son libellé.
@@ -188,3 +225,5 @@ Pour supprimer un type de colisage, cliquez sur le bouton "supprimer" dans l'ong
 ## Paramétrage
 
 Sur ce menu de paramétrage vous retrouverez tous les paramètres de l'application. Certains sont modifiables et d'autres ne le sont pas (dans ce cas ils sont grisés).
+
+![Paramétrage](images/chap_03/parametrage.jpg "Paramétrage")

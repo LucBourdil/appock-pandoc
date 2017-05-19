@@ -3,6 +3,8 @@
 Pour vous connecter à l'application, rendez-vous à l'adresse http://www.a-completer.nc.
 La page de connexion suivante apparait :
 
+!(images/chap_01/connexion.jpg "Connexion")
+
 > Dans le cas où vous ne voyez pas cette page, merci de prendre contact avec la DSI pour leur indiquer le problème.
 
 Renseignez votre nom d'utilisateur et votre mot de passe Mairie.

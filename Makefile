@@ -6,7 +6,7 @@ COVER_IMAGE = images/appock.png
 LATEX_CLASS = report
 
 BOOKNAME_USER = doc_utilisateur
-CHAPTERS_USER = chapitres/chap_01.md chapitres/chap_02.md chapitres/chap_03.md chapitres/chap_04.md chapitres/chap_05.md \
+CHAPTERS_USER = chapitres/chap_01.md chapitres/chap_02.md chapitres/chap_03.md chapitres/chap_04.md chapitres/chap_05.md chapitres/chap_06.md chapitres/chap_07.md chapitres/chap_08.md chapitres/chap_09.md \
 
 all: book
 

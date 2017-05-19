@@ -1,21 +1,41 @@
-# Référent service
+# Référent achat
 
 Voici le cycle de fonctionnement au sein d'APPOCK entre les référents services et les référents achats :
 
-![Diagramme séquence service achat](images/diagramme-sequence-service-achat.png "Diagramme séquence service achat")
+![Diagramme séquence service achat](images/chap_04/diagramme-sequence-service-achat.png "Diagramme séquence service achat")
 
 ## Demandes à traiter
 
 Vous pouvez voir toutes les demandes dans l'état "à traiter". En fin de ligne un cercle d'avancement vous permet de visualiser rapidement si des traitements ont déjà été commencés ou non sur chacune des demandes.
 Un double clic sur une demande permet de l'ouvrir en modification.
 
+### Rechercher une demande
+
+Vous pouvez rechercher une demande par numéro ou par service en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les demandes ayant ce texte dans la numéro ou le service selectionné. La recherche est en mode "le numéro *contient* le texte à rechercher".
+
+![Recherche demande](images/chap_05/recherche_demande.jpg "Recherche demande")
+
 ### Valider un/des articles
 
-Vous pouvez, tant que la demande n'est pas transmise, cliquer sur un ou plusieurs articles et cliquer sur le bouton "Valider". Une fois un article validé vous ne pouvez plus modifier sa quantité.
+Vous pouvez, tant que la demande n'est pas transmise, cliquer sur un ou plusieurs articles et cliquer sur le bouton "Valider". Une fois un article validé vous ne pouvez plus modifier sa quantité. 
+Le pictogramme suivant vous indique que l'article est validé :
+
+![Validé](images/chap_05/valide.jpg "Validé")
+
+S'il s'agit d'un article ajouté manuellement par la section achat, le pictogramme correspondant s'affichera : 
+
+![Ajout validé](images/chap_05/ajout_valide.jpg "Ajout validé")
 
 ### Rejeter un/des articles
 
 Vous pouvez, tant que la demande n'est pas transmise, cliquer sur un ou plusieurs articles et cliquer sur le bouton "Rejeter". Une fois un article rejeté vous ne pouvez plus modifier sa quantité.
+Le pictogramme suivant vous indique que l'article est rejeté :
+
+![Rejeté](images/chap_05/rejete.jpg "Rejeté")
+
+S'il s'agit d'un article ajouté manuellement par la section achat, le pictogramme correspondant s'affichera : 
+
+![Ajout rejeté](images/chap_05/ajout_rejete.jpg "Ajout rejeté")
 
 ### Réinitialiser un/des articles
 
@@ -23,7 +43,11 @@ Vous pouvez, tant que la demande n'est pas transmise, cliquer sur un ou plusieur
 
 ### Ajouter un article
 
-Si vous souhaitez ajouter un nouvel article à la demande il vous suffit de cliquer sur "Ajouter un article". Le catalogue s'ouvre et vous permet de choisir un article et de l'ajouter à cette demande. Ce nouvel article est par défaut "validé". Si vous souhaitez modifier la quantité voir le paragraphe ci-dessus "Réinitialiser un/des articles".
+Si vous souhaitez ajouter un nouvel article à la demande il vous suffit de cliquer sur "Ajouter un article". Le catalogue s'ouvre et vous permet de choisir un article et de l'ajouter à cette demande.
+
+Le pictogramme suivant vous indique que l'article a été ajouté :
+
+![Ajout](images/chap_05/ajout.jpg "Ajout")
 
 ### Traiter la demande
 
@@ -35,7 +59,7 @@ Si vous n'avez pas validé ou rejeté chacune des articles, un message d'erreur 
 
 ### Annuler la demande
 
-Vous pouvez à ce stade annuler la demande. Cette demande passera dans l'état annulé (un mail d'information avertira les référents services de cette annulation) et elle ne sera plus accessible par le service achat.
+Vous pouvez à ce stade annuler la demande en cliquant sur le bouton "Annuler la demande" en haut à droite. Cette demande passera dans l'état annulé (un mail d'information avertira les référents services de cette annulation) et elle ne sera plus accessible par la section achat.
 
 ## Demandes à commander
 
@@ -51,7 +75,9 @@ Vous pouvez sélectionner des demandes et cliquer sur le bouton "Créer une comm
 
 Vous pouvez sélectionner des demandes et cliquer sur le bouton "Ajouter à une commande existante". Vous pourrez alors choisir une commande déjà existante afin de rattacher ces demandes à cette commande. Automatiquement, ces demandes sont ajoutées à la commande choisie. La suite se passe au niveau de la Commande a passer.
 
-## Commande a passer
+![Ajout commande](images/chap_05/ajout_commande.jpg "Ajout commande")
+
+## Commande à passer
 
 Cet écran vous permet de gérer la cohérence des demandes au sein des services, de générer les fichiers Excels à envoyer aux fournisseurs et de préciser que vous avez passé commande auprès des fournisseurs.
 
@@ -70,6 +96,8 @@ Vous pouvez à tout moment, autant de fois que nécessaire, cliquer sur ce bouto
 ### Passer commande
 
 Un clic sur ce bouton permet de préciser que vous avez passé commande auprès des fournisseurs et que la commande devient donc "figée" (i.e. vous ne pouvez plus rien modifier). La prochaine étape sera donc la réception de cette commande par chacun des services.
+
+> Attention, une fois cette étape passée, vous ne pourrez plus générer les fichiers Excels fournisseurs !
 
 ### Supprimer la commande
 
@@ -95,6 +123,8 @@ Si la commande a été réceptionnée par le service, vous verrez, en cliquant s
 ### Valider la livraison d'un service
 
 Sur chacun des services, si ceux-ci ont bien réceptionné la commande, vous pourrez valider à la fin de la ligne du service la commande de ce service. Attention, cette validation est définitive et vous ne pourrez plus modifier les quantités reçues une fois cette validation effectuée.
+
+> Cette action met à jour les stocks du service avec les informations qui auront été saisies dans la colonne "reçue"
 
 ### Valider la commande globalement
 

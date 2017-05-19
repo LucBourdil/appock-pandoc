@@ -1,3 +1,3 @@
 # Ergonomie générale
 
-[A compléter avec un screenshot global, explicatif]
+![Ergonomie générale](images/chap_02/ergonomie générale.jpg "Ergonomie générale")

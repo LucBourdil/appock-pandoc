@@ -54,6 +54,7 @@ Pour supprimer un fournisseur, cliquez sur le bouton "supprimer" dans la liste d
 ## Utilisateurs
 
 Les rôles des utilisateurs sont hiérarchiques et classé dans cet ordre :
+
 * Administrateur
 * Référent achats
 * Référent services
@@ -72,6 +73,7 @@ Cliquez sur "Nouveau" et renseignez un login Mairie (ex : lemth83).
 ![Création utilisateur](images/chap_03/creation_utilisateur.jpg "Création utilisateur")
 
 Soit :
+
 * L'utilisateur existe déjà dans APPOCK et vous aurez une erreur "L'identifiant xxxxxxx est déjà utilisé"
 * L'utilisateur n'a pas été trouvé dans l'annuaire de la Mairie, dans ce cas vous aurez une erreur : "L'utilisateur n'a pas été trouvé dans la liste des agents de la Mairie de Nouméa"
 * L'utilisateur n'existe pas déjà APPOCK et a été trouvé dans l'annuaire
@@ -175,6 +177,7 @@ Un message d'erreur vous avertira dans le cas où vous essayer d'activer un cata
 > Impossible d'activer ce catalogue car il existe déjà un catalogue actif
 
 Pour activer ce catalogue, il faudra dans ce cas :
+
 * Archiver l'autre catalogue
 * Activer ce catalogue
 

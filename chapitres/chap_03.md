@@ -172,6 +172,8 @@ Il est possible d'importer un catalogue depuis un fichier Excel. Le squelette du
 > Il ne sert en aucun cas à mettre à jour des articles et/ou à en supprimer.
 > Il a vocation à être utilisé pour *initialiser* un catalogue qui doit ensuite être vérifié/mise à jour manuellement.
 
+\pagebreak
+
 ### Changer l'état d'un catalogue
 
 Pour modifier l'état d'un catalogue, il suffit de cliquer sur le bouton permettant de changer le statut. Pour rappel, un catalogue respecte le workflow suivant :

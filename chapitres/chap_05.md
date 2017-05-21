@@ -26,6 +26,8 @@ S'il s'agit d'un article ajouté manuellement par la section achat, le pictogram
 
 ![Ajout validé](images/chap_05/ajout_valide.jpg "Ajout validé"){width=70%}
 
+\pagebreak
+
 ### Rejeter un/des articles
 
 Vous pouvez, tant que la demande n'est pas transmise, cliquer sur un ou plusieurs articles et cliquer sur le bouton "Rejeter". Une fois un article rejeté vous ne pouvez plus modifier sa quantité.

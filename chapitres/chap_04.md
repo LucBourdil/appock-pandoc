@@ -2,7 +2,7 @@
 
 Voici le cycle de fonctionnement au sein d'APPOCK entre les référents services et les référents achats :
 
-![Diagramme séquence section achat](images/chap_04/diagramme-sequence-service-achat.png "Diagramme séquence section achat")
+![Diagramme séquence section achat](images/chap_04/diagramme-sequence-service-achat.png "Diagramme séquence section achat"){width=70%}
 
 ## Catalogue
 
@@ -15,7 +15,7 @@ Il se peut qu'aucun catalogue ne soit actif, vous aurez alors l'erreur suivante 
 
 Vous pouvez rechercher un article par libellé ou référence en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les articles ayant ce texte dans la référence ou dans le libellé. La recherche est en mode "le libellé ou la référence *contient* le texte à rechercher".
 
-![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue")
+![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue"){width=70%}
 
 ### Ajouter un/des articles au panier
 
@@ -58,7 +58,7 @@ En cliquant sur le bouton "Vider le panier", le panier est complètement vidé.
 
 Voici les différents états que prenne une demande dans APPOCK :
 
-![Diagramme état demande](images/chap_04/diagramme-etat-demande.png "Diagramme état demande")
+![Diagramme état demande](images/chap_04/diagramme-etat-demande.png "Diagramme état demande"){width=70%}
 
 ### Consulter les demandes
 
@@ -70,7 +70,7 @@ Pour consulter la liste des demandes et voir leurs états, cliquez sur le menu "
 
 Vous pouvez rechercher une demande par numéro ou par état en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les demandes ayant ce texte dans la numéro ou l'état selectionné. La recherche est en mode "le numéro *contient* le texte à rechercher".
 
-![Recherche demande](images/chap_04/recherche_demande.jpg "Recherche demande")
+![Recherche demande](images/chap_04/recherche_demande.jpg "Recherche demande"){width=70%}
 
 ### Créer une demande d'approvisionnement
 
@@ -100,7 +100,7 @@ Tant que la demande n'est pas transmise elle peut être annulée (i.e. supprimé
 Dans la liste des demandes vous pouvez cliquer sur le bouton "Création d'une demande d'approvisionnement pour un article spécifique". Un écran s'ouvre vous demandant de renseigner les informations de l'article spécifique.
 Une fois votre demande envoyée par mail vous serez mis en copie de ce mail qui sera transmis à la section achat.
 
-![Création demande spécifique](images/chap_04/creation_demande_specifique.jpg "Création demande spécifique")
+![Création demande spécifique](images/chap_04/creation_demande_specifique.jpg "Création demande spécifique"){width=70%}
 
 > La gestion des articles spécifiques se fera entièrement en dehors de l'application APPOCK
 
@@ -122,7 +122,7 @@ Si vous souhaitez faire passer un message concernant cette commande à la sectio
 
 Vous pouvez rechercher un article par libellé ou référence en entrant du texte dans la zone au dessus des articles. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les articles ayant ce texte dans la référence ou dans le libellé. La recherche est en mode "le libellé ou la référence *contient* le texte à rechercher".
 
-![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue")
+![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue"){width=70%}
 
 ### Vérifier et valider les quantités reçues
 

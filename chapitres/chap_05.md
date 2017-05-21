@@ -2,7 +2,7 @@
 
 Voici le cycle de fonctionnement au sein d'APPOCK entre les référents services et les référents achats :
 
-![Diagramme séquence service achat](images/chap_04/diagramme-sequence-service-achat.png "Diagramme séquence service achat")
+![Diagramme séquence service achat](images/chap_04/diagramme-sequence-service-achat.png "Diagramme séquence service achat"){width=70%}
 
 ## Demandes à traiter
 
@@ -13,29 +13,29 @@ Un double clic sur une demande permet de l'ouvrir en modification.
 
 Vous pouvez rechercher une demande par numéro ou par service en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les demandes ayant ce texte dans la numéro ou le service selectionné. La recherche est en mode "le numéro *contient* le texte à rechercher".
 
-![Recherche demande](images/chap_05/recherche_demande.jpg "Recherche demande")
+![Recherche demande](images/chap_05/recherche_demande.jpg "Recherche demande"){width=70%}
 
 ### Valider un/des articles
 
 Vous pouvez, tant que la demande n'est pas transmise, cliquer sur un ou plusieurs articles et cliquer sur le bouton "Valider". Une fois un article validé vous ne pouvez plus modifier sa quantité. 
 Le pictogramme suivant vous indique que l'article est validé :
 
-![Validé](images/chap_05/valide.jpg "Validé")
+![Validé](images/chap_05/valide.jpg "Validé"){width=70%}
 
 S'il s'agit d'un article ajouté manuellement par la section achat, le pictogramme correspondant s'affichera : 
 
-![Ajout validé](images/chap_05/ajout_valide.jpg "Ajout validé")
+![Ajout validé](images/chap_05/ajout_valide.jpg "Ajout validé"){width=70%}
 
 ### Rejeter un/des articles
 
 Vous pouvez, tant que la demande n'est pas transmise, cliquer sur un ou plusieurs articles et cliquer sur le bouton "Rejeter". Une fois un article rejeté vous ne pouvez plus modifier sa quantité.
 Le pictogramme suivant vous indique que l'article est rejeté :
 
-![Rejeté](images/chap_05/rejete.jpg "Rejeté")
+![Rejeté](images/chap_05/rejete.jpg "Rejeté"){width=70%}
 
 S'il s'agit d'un article ajouté manuellement par la section achat, le pictogramme correspondant s'affichera : 
 
-![Ajout rejeté](images/chap_05/ajout_rejete.jpg "Ajout rejeté")
+![Ajout rejeté](images/chap_05/ajout_rejete.jpg "Ajout rejeté"){width=70%}
 
 ### Réinitialiser un/des articles
 
@@ -47,7 +47,7 @@ Si vous souhaitez ajouter un nouvel article à la demande il vous suffit de cliq
 
 Le pictogramme suivant vous indique que l'article a été ajouté :
 
-![Ajout](images/chap_05/ajout.jpg "Ajout")
+![Ajout](images/chap_05/ajout.jpg "Ajout"){width=70%}
 
 ### Traiter la demande
 
@@ -75,7 +75,7 @@ Vous pouvez sélectionner des demandes et cliquer sur le bouton "Créer une comm
 
 Vous pouvez sélectionner des demandes et cliquer sur le bouton "Ajouter à une commande existante". Vous pourrez alors choisir une commande déjà existante afin de rattacher ces demandes à cette commande. Automatiquement, ces demandes sont ajoutées à la commande choisie. La suite se passe au niveau de la Commande a passer.
 
-![Ajout commande](images/chap_05/ajout_commande.jpg "Ajout commande")
+![Ajout commande](images/chap_05/ajout_commande.jpg "Ajout commande"){width=70%}
 
 ## Commande à passer
 

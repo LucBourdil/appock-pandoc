@@ -1,11 +1,9 @@
 # Connexion
 
-Pour vous connecter à l'application, rendez-vous à l'adresse This is [http://appock.site-mairie.noumea.nc/](http://appock.site-mairie.noumea.nc/ "http://appock.site-mairie.noumea.nc/").
+Pour vous connecter à l'application, rendez-vous à l'adresse [http://appock.site-mairie.noumea.nc/](http://appock.site-mairie.noumea.nc/ "http://appock.site-mairie.noumea.nc/").
 La page de connexion suivante apparait :
 
 ![Connexion](images/chap_01/connexion.jpg "Connexion"){width=70%}
-
-\pagebreak
 
 > Dans le cas où vous ne voyez pas cette page, merci de prendre contact avec la DSI pour leur indiquer le problème.
 

@@ -150,6 +150,8 @@ Une fois le catalogue créé, vous pouvez lui ajouter une famille en cliquant su
 
 ![Création famille](images/chap_03/creation_famille.jpg "Création famille"){width=70%}
 
+\pagebreak
+
 #### Ajout d'une sous-famille
 
 Sélectionnez une famille dans le catalogue, puis cliquez sur "Nouvelle sous-famille" et renseignez un libellé.

@@ -16,6 +16,8 @@
 
 ![Création service](images/chap_03/creation_service.jpg "Création service"){width=70%}
 
+\pagebreak
+
 ### Modification
 
 Pour modifier un pôle ou une direction ou un service, double cliquez sur une ligne dans la liste et modifiez les informations souhaitées
@@ -31,6 +33,8 @@ La suppression d'un pôle ou d'une direction entraînera automatiquement la supp
 
 > Vous ne pourrez supprimer un pôle/direction/service qu'à partir du moment où celui-ci n'est utilisé par aucun élément dans le reste de l'application.
 > Dans le cas contraire, une erreur vous avertira qu'il est impossible d'effectuer la suppression.
+
+\pagebreak
 
 ## Fournisseurs
 

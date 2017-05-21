@@ -38,7 +38,7 @@ La suppression d'un pôle ou d'une direction entraînera automatiquement la supp
 
 Pour créer un nouveau fournisseur, sur la liste des fournisseurs, cliquez sur le bouton "Nouveau" et renseignez les informations souhaitées.
 
-![Création fournisseur](images/chap_03/creation_fournisseur.jpg "Création fournisseur")
+![Création fournisseur](images/chap_03/creation_fournisseur.jpg "Création fournisseur"){width=70%}
 
 ### Modification
 

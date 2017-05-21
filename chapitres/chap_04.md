@@ -27,6 +27,7 @@ Lorsque vous vous trouvez sur le catalogue, le bouton en fin de ligne de chaque 
 
 A la différence du panier qui est partagé entre tous les référents services d'un même service, les favoris, eux, sont individuels.
 Vous pouvez ajouter ou enlever un article de vos favoris en cliquant sur l'étoile qui se trouve sur chacune des lignes des articles du catalogue.
+
 * Une étoile vide signifie que l'article ne fait pas partie de vos favoris,
 * Une étoile pleine, bleue, signifie que l'article fait partie de vos favoris.
 

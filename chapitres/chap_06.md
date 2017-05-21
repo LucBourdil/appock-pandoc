@@ -7,13 +7,13 @@ Tous les articles du stocks apparaissent avec les quantotés en stocks. Les quan
 
 Vous pouvez rechercher un article par libellé ou référence en entrant du texte dans la zone en haut de l'écran. Une fois votre texte renseigné, vous pouvez soit appuyer sur "Entrée" ou cliquer sur la loupe pour lancer la recherche. La liste est alors filtrées et ne fait apparaître que les articles ayant ce texte dans la référence ou dans le libellé. La recherche est en mode "le libellé ou la référence *contient* le texte à rechercher".
 
-![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue")
+![Recherche catalogue](images/chap_04/recherche_catalogue.jpg "Recherche catalogue"){width=70%}
 
 ## Sortie de stock
 
 Afin d'effectuer une sortie de stock il vous suffit de cliquer sur une ligne d'article et de cliquer sur "Sortie de stock". La fenêtre de sortie de stock s'ouvre vous permettant de saisir votre sortie.
 
-![Sortie de stock](images/chap_06/sortie_stock.jpg "Sortie de stock")
+![Sortie de stock](images/chap_06/sortie_stock.jpg "Sortie de stock"){width=70%}
 
 > Si l'article seléctionné poséde un colisage particulier, vous pourrez choisir, lors de la saisie de la quantité à sortir du stock, d'effectuer soit une sortie à l'unité ou au colisage (à la boite par exemple)
 

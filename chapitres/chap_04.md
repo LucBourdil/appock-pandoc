@@ -95,6 +95,8 @@ Une fois votre demande prête, vous pouvez la transmettre en cliquant sur le bou
 
 Tant que la demande n'est pas transmise elle peut être annulée (i.e. supprimée).
 
+\pagebreak
+
 ### Création d'une demande d'approvisionnement pour un article spécifique
 
 Dans la liste des demandes vous pouvez cliquer sur le bouton "Création d'une demande d'approvisionnement pour un article spécifique". Un écran s'ouvre vous demandant de renseigner les informations de l'article spécifique.

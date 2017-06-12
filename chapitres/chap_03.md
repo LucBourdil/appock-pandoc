@@ -12,7 +12,7 @@
  
 ![Création direction](images/chap_03/creation_direction.jpg "Création direction"){width=70%}
  
-* Pour créer un service, placez vous dans la liste sur une direction, puis cliquez sur "Nouveau service" et donner lui un libellé, un libellé court et renseignez l'adresse de livraison
+* Pour créer un service, placez vous dans la liste sur une direction, puis cliquez sur "Nouveau service" et donner lui un libellé, un libellé court et renseignez le téléphone et l'adresse de livraison
 
 ![Création service](images/chap_03/creation_service.jpg "Création service"){width=70%}
 
